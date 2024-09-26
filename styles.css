@@ -3,10 +3,13 @@
 .holder{
 	display:flex;
 	justify-content:space-evenly;
+	flex-wrap:wrap;
 }
 .item{
+	text-align:center;
 	margin:5px;
-	width:200px;
-	height:200px;
+	width:100px;
+	height:100px;
 	background-color:green;
+	align-content:center; 
 }
